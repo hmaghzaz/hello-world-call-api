@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import UserComponent from "./Components/UserComponent";
+import GithubUserComponent from "./Components/GithubUserComponent";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <UserComponent />
+        {/* <UserComponent /> */}
+        <GithubUserComponent />
       </header>
     </div>
   );
